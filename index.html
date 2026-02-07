@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism CSS Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Controls -->
+        <aside class="controls-panel">
+            <header>
+                <h1>Glass Generator</h1>
+                <p>Create modern frosted glass effects instantly.</p>
+            </header>
+
+            <div class="control-group">
+                <label for="blur">Blur <span id="blur-val">10px</span></label>
+                <input type="range" id="blur" min="0" max="40" value="10">
+            </div>
+
+            <div class="control-group">
+                <label for="transparency">Transparency <span id="transparency-val">0.5</span></label>
+                <input type="range" id="transparency" min="0" max="1" step="0.01" value="0.5">
+            </div>
+
+            <div class="control-group">
+                <label for="color">Base Color</label>
+                <input type="color" id="color" value="#ffffff">
+            </div>
+
+            <div class="control-group">
+                <label for="outline">Outline Width <span id="outline-val">1px</span></label>
+                <input type="range" id="outline" min="0" max="5" step="0.1" value="1">
+            </div>
+
+             <div class="control-group">
+                <label for="radius">Border Radius <span id="radius-val">16px</span></label>
+                <input type="range" id="radius" min="0" max="100" value="16">
+            </div>
+
+            <div class="code-output">
+                <div class="code-header">
+                    <span>CSS</span>
+                    <button id="copy-btn">Copy</button>
+                </div>
+                <pre><code id="css-code"></code></pre>
+            </div>
+        </aside>
+
+        <!-- Preview Area -->
+        <main class="preview-area">
+            <div class="background-blobs">
+                <div class="blob blob-1"></div>
+                <div class="blob blob-2"></div>
+                <div class="blob blob-3"></div>
+            </div>
+            
+            <div class="glass-card" id="preview-card">
+                <h2>Glass Card</h2>
+                <p>Adjust the sliders to style this element.</p>
+                <button class="dummy-btn">Read More</button>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
