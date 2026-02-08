@@ -5,6 +5,7 @@ An interactive, zero-dependency tool to design modern "frosted glass" UI element
 [![Live Demo](https://img.shields.io/badge/demo-live-green.svg)](https://glassmorphismgenerator.vercel.app/)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
+
 ## ✨ Features
 
 -   **Real-time Preview**: See your glass effect update instantly as you tweak settings.
