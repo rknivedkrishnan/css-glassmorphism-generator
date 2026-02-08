@@ -3,7 +3,7 @@
 An interactive, zero-dependency tool to design modern "frosted glass" UI elements and generate the CSS instantly.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Live Demo](https://img.shields.io/badge/demo-live-green.svg) <!-- Replace with your GitHub Pages URL once deployed -->
+![Live Demo]([https://img.shields.io/badge/demo-live-green.svg](https://rknivedkrishnan.github.io/css-glassmorphism-generator/)https://rknivedkrishnan.github.io/css-glassmorphism-generator/) <!-- Replace with your GitHub Pages URL once deployed -->
 
 ## ✨ Features
 
